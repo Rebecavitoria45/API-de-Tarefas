@@ -31,10 +31,10 @@ Esse é o schema (model) de Tarefas, utilizado para passar para os métodos que 
 
 | Verbo  | Endpoint                | Parâmetro | Body          |
 |--------|-------------------------|-----------|---------------|
-| GET    | /Tarefas/{id}            | id        | N/A           |
-| PUT    | /Tarefas/{id}            | id        | Schema Tarefa |
-| DELETE | /Tarefas/{id}            | id        | N/A           |
-| GET    | /Tarefas                  | N/A      | N/A           |
-| POST   |/Tarefas/criar             | N/A      | Schema Tarefa |
+| GET    | /tarefas/{id}            | id        | N/A           |
+| PUT    | /tarefas/{id}            | id        | Schema Tarefa |
+| DELETE | /tarefas/{id}            | id        | N/A           |
+| GET    | /tarefas                  | N/A      | N/A           |
+| POST   | /tarefas/criar            | N/A      | Schema Tarefa |
 
 
