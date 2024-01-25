@@ -18,7 +18,23 @@
 ![Captura de tela 2024-01-15 094956](https://github.com/Rebecavitoria45/API-de-Tarefas/assets/117654851/e79cf1b4-3364-4a04-83de-ebe4b2aa776f)
    <b>Criei uma Api para criação, remoção, atualização e listagem de tarefas </b>
 
+Esse é o schema (model) de Tarefas, utilizado para passar para os métodos que exigirem   
+```json
+{
+  "titulo": "string",
+  "descricao": "string",
+  "concluida": true
+}
+```
+**Endpoints**
 
 
+| Verbo  | Endpoint                | Parâmetro | Body          |
+|--------|-------------------------|-----------|---------------|
+| GET    | /Tarefas/{id}            | id        | N/A           |
+| PUT    | /Tarefas/{id}            | id        | Schema Tarefa |
+| DELETE | /Tarefas/{id}            | id        | N/A           |
+| GET    | /Tarefas                  | N/A      | N/A           |
+| POST   |/Tarefas/criar             | N/A      | Schema Tarefa |
 
 
